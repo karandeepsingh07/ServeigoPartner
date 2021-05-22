@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F7F7"
+    tools:context=".ServiceListActivity">
+
+    <include
+        android:id="@+id/toolbar1"
+        layout="@layout/custom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"/>
+
+  <!--  <ImageView
+        android:id="@+id/logoman"
+        android:layout_width="150dp"
+        android:layout_marginTop="85dp"
+        android:layout_height="350dp"
+        android:src="@drawable/logoman"/>-->
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/toolbar1">
+        <TextView
+            android:id="@+id/textView_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Service"
+            android:textSize="15sp"
+            android:layout_weight="2"
+            android:textStyle="bold"
+            android:layout_marginStart="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price(₹)"
+            android:layout_marginStart="10dp"
+            android:layout_weight="3"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textAlignment="viewEnd"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/text_price"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Serveigo(%)"
+            android:layout_weight="3"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="10dp"
+            android:id="@+id/text_commission"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/linear"/>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/nextbg"
+        android:text="Submit Changes"/>
+
+</RelativeLayout>

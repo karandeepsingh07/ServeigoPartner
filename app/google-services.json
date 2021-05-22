@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_number": "892968944982",
+    "firebase_url": "https://serveigo-5df42.firebaseio.com",
+    "project_id": "serveigo-5df42",
+    "storage_bucket": "serveigo-5df42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892968944982:android:7bfd6b7541505c1ce342f7",
+        "android_client_info": {
+          "package_name": "com.service.serveigo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892968944982-75t8pq5g0q4ptflrgdqhqne48u4fanss.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.service.serveigo",
+            "certificate_hash": "f8100e112e38af7766fa9475e1a49ba1cb6a0599"
+          }
+        },
+        {
+          "client_id": "892968944982-d5i92mntdkps7k3ob6h346pserk0omef.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.service.serveigo",
+            "certificate_hash": "f3d1580536e2d152e8602471acbd23264bf27238"
+          }
+        },
+        {
+          "client_id": "892968944982-hq8fprfoss24qvunlosirh3na3a71usi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTABs6HQYn0s67UYsmdML2bFCeBUpklGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892968944982-hq8fprfoss24qvunlosirh3na3a71usi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892968944982:android:26cb81a0624750b8e342f7",
+        "android_client_info": {
+          "package_name": "com.service.serveigopartner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892968944982-pmd1ah70cp2f38qnamtu3rbrqni0phjo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.service.serveigopartner",
+            "certificate_hash": "f8100e112e38af7766fa9475e1a49ba1cb6a0599"
+          }
+        },
+        {
+          "client_id": "892968944982-o62rgc1nhf2cncd9dan3acseo1nlq4d6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.service.serveigopartner",
+            "certificate_hash": "f3d1580536e2d152e8602471acbd23264bf27238"
+          }
+        },
+        {
+          "client_id": "892968944982-hq8fprfoss24qvunlosirh3na3a71usi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTABs6HQYn0s67UYsmdML2bFCeBUpklGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892968944982-hq8fprfoss24qvunlosirh3na3a71usi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
